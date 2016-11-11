@@ -1,9 +1,10 @@
 
 public class Participant {
-	private int id;
+	protected int id;
 	private String name;
 	private String address;
 	private String phoneNumber;
+	protected Program program;
 	
 	public Participant(){
 		
@@ -14,6 +15,7 @@ public class Participant {
 		this.name = name;
 		this.address = address;
 		this.phoneNumber = phoneNumber;
+		program = Program.getInstance();
 	}
 	
 	public void setId(int id){
