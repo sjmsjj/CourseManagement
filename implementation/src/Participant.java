@@ -1,9 +1,9 @@
 
 public class Participant {
 	protected int id;
-	private String name;
-	private String address;
-	private String phoneNumber;
+	protected String name;
+	protected String address;
+	protected String phoneNumber;
 	protected Program program;
 	
 	public Participant(){
